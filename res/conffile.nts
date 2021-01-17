@@ -1,0 +1,10 @@
+#three inputs and gate
+.chipsets:
+input a
+input b
+4081 c
+output out
+.links:
+a:1 c:1
+b:1 c:2
+out:1 c:3
